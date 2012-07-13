@@ -183,7 +183,7 @@
                             "children": {
                                 "toolbar-element": {
                                     "config": {
-                                        "children": { 
+                                        "children": {
                                             "logo-element": {
                                                 "type": "LogoElementMojit"
                                             },
