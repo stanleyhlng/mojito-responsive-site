@@ -30,7 +30,7 @@ a:hover {
 }
 #header {
     background-color: rgba(255,255,255,0.5);
-    height: 180px;
+    //height: 180px;
     margin: 10px;
     position: relative;
 }
@@ -102,7 +102,10 @@ a:hover {
 }
 
 .logo { 
-    height: 50px;   
+    padding: 10px;
+}
+.logo img {
+    max-height: 120px;
 }
 
 .navigation {
