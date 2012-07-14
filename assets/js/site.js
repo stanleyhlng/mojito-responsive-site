@@ -2,10 +2,9 @@
 
     var main = function() {
 
-        $(this).joyride({
-            /* Options will go here */
-            "tipContent": "#page-guide-steps"
-        });
+        //jQuery(this).joyride({
+        //    "tipContent": "#page-guide-steps"
+        //});
 
     };
     

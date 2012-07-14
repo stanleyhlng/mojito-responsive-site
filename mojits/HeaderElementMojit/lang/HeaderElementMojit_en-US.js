@@ -1,10 +1,10 @@
-YUI.add("lang/LogoElementMojit_en-US", function(Y,NAME) {
+YUI.add("lang/HeaderElementMojit_en-US", function(Y,NAME) {
   Y.Intl.add(
-    "LogoElementMojit",  // associated mojit
+    "HeaderElementMojit",  // associated mojit
     "en-US",    // BCP 47 language tag
     // key-value pairs for this module and language
     {
-      TITLE: "Logo"
+      TITLE: "Header"
     }
   );
 }, "3.1.0", {requires: ['intl']});

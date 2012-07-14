@@ -35,10 +35,6 @@ YUI.add('LogoElementMojit', function(Y, NAME) {
                     return;
                 }
 
-                data.info = {};
-                data.info.name = ac.intl.lang( "TITLE" );
-                //data.info.name = "Logo";
-
                 ac.done({
                     status: 'Mojito is working.',
                     data: data

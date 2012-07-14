@@ -1,9 +1,12 @@
 <!-- ContentElementMojit -->
-<div id="content">
+<div id="content" class="guide-section">
     <div class="container">
+
+        <h2 class="label">{{#data}}{{#info}}{{name}}{{/info}}{{/data}}</h2>
+
         {{{breadcrumb-element}}}
+
         <div class="article clearfix">
-            <h2>{{#data}}{{#info}}{{name}}{{/info}}{{/data}}</h2>
             <p>
                 {{#data}}{{#info}}{{content}}{{/info}}{{/data}}
             </p>

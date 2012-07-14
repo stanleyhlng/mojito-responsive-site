@@ -73,6 +73,9 @@
         padding-left: 5px;
         padding-right: 5px;
     }
+    .container {
+        padding: 5px;
+    }   
 }
 
 /* for 480px or less */

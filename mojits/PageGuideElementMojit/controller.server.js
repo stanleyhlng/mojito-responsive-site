@@ -59,22 +59,26 @@ YUI.add('PageGuideElementMojit', function(Y, NAME) {
             data.items  = [];
 
             data.items.push({
-                'markup': '<li data-id="header" data-options="tipLocation:top;tipAnimation:fade" data-text="Next: Logo" class="page-guide-popup"><div>This is <strong>HEADER</strong> section. </div></li>'
+                'markup': '<li data-id="header" data-options="tipLocation:top;tipAnimation:fade" data-text="Next" class="page-guide-popup"><div>This is <strong>HEADER</strong> section. </div></li>'
             });
+            /*
             data.items.push({
                 'markup': '<li data-id="logo" data-options="tipLocation:top;tipAnimation:fade" data-text="Next: Navigation" class="page-guide-popup"><div>This is <strong>LOGO</strong> module. </div></li>'
             });
+            */
             data.items.push({
-                'markup': '<li data-id="navigation" data-options="tipLocation:top;tipAnimation:fade" data-text="Next: Content" class="page-guide-popup"><div>This is <strong>NAVIGATION</strong> module. </div></li>'
+                'markup': '<li data-id="navigation" data-options="tipLocation:top;tipAnimation:fade" data-text="Next" class="page-guide-popup"><div>This is <strong>NAVIGATION</strong> module. </div></li>'
             });
             data.items.push({
-                'markup': '<li data-id="content" data-options="tipLocation:top;tipAnimation:fade" data-text="Next: Breadcrumb" class="page-guide-popup"><div>This is <strong>CONTENT</strong> section. </div></li>'
+                'markup': '<li data-id="content" data-options="tipLocation:top;tipAnimation:fade" data-text="Next" class="page-guide-popup"><div>This is <strong>CONTENT</strong> section. </div></li>'
             });
+            /*
             data.items.push({
                 'markup': '<li data-id="breadcrumb" data-options="tipLocation:top;tipAnimation:fade" data-text="Next: Sidebar" class="page-guide-popup"><div>This is <strong>BREADCRUMB</strong> module. </div></li>'
             });
+            */
             data.items.push({
-                'markup': '<li data-id="sidebar" data-options="tipLocation:top;tipAnimation:fade" data-text="Next: Footer" class="page-guide-popup"><div>This is <strong>SIDEBAR</strong> section. </div></li>'
+                'markup': '<li data-id="sidebar" data-options="tipLocation:top;tipAnimation:fade" data-text="Next" class="page-guide-popup"><div>This is <strong>SIDEBAR</strong> section. </div></li>'
             });
             data.items.push({
                 'markup': '<li data-id="footer" data-options="tipLocation:top;tipAnimation:fade" data-text="Close" class="page-guide-popup"><div>This is <strong>FOOTER</strong> section. </div></li>'

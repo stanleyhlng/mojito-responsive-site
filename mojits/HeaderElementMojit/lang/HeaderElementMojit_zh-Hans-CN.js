@@ -1,6 +1,6 @@
-YUI.add("lang/LogoElementMojit_zh-Hans-CN", function(Y,NAME) {
+YUI.add("lang/HeaderElementMojit_zh-Hans-CN", function(Y,NAME) {
   Y.Intl.add(
-    "LogoElementMojit",  // associated mojit
+    "HeaderElementMojit",  // associated mojit
     "zh-Hans-CN",    // BCP 47 language tag
     // key-value pairs for this module and language
     {
