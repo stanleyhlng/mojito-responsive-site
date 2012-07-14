@@ -42,6 +42,9 @@ iframe {
     padding: 0 10px;
     height: 100%;
 }
+.logo img {
+    height: 100%;
+}
 .navigation {
     border: 1px solid green;
     display: inline-block;  

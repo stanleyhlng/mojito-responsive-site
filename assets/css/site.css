@@ -1,6 +1,6 @@
 html {
     background: #f5f5f5 url('../img/pattern-4.png') repeat left top;
-    //background-color: rgba(0,0,0,0.5);
+    //background-color: rgba(255,255,0,0.8);
 }
 body {
     color: #333333;
@@ -17,7 +17,7 @@ a:hover {
 
 #pagewrap {
     //background-color: rgba(0,0,0,0.5);
-    margin: 20px auto;
+    margin: 0 auto 20px auto;
     padding: 5px;
     width: 960px;
 }
@@ -55,6 +55,25 @@ a:hover {
     width: 300px;
 }
 
+.article {
+    margin: 10px 0;
+}
+.article .image-container {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.1);
+    //box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    background-color: rgba(250,250,250,1.0);    
+}
+.article .image-container:active,
+.article .image-container:hover {
+    background-color: #EEEEEE;
+    border: 1px solid #ED145B;
+}
+.article img {
+    max-width: 100%;
+}
+
 .breadcrumb {
     font-size: 0.9em;   
     text-transform: uppercase;
@@ -89,19 +108,19 @@ a:hover {
 }
 
 .guide-page {
-    border: 1px solid blue;   
+    //border: 1px solid blue;   
     margin: -1;
 }
 .guide-section {
-    border: 1px solid red;    
+    //border: 1px solid red;    
     margin: -1;
 }
 .guide-element {
-    border: 1px solid green;  
+    //border: 1px solid green;  
     margin: -1;
 }
 
-.logo { 
+.logo {
     padding: 10px;
 }
 .logo img {
