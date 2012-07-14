@@ -3,12 +3,12 @@
     "description": "My Mojito application",
     "version": "0.0.1",
     "author": {
-        "name": "Your Name",
+        "name": "Stanley Ng",
         "email": "nobody@yahoo-inc.com"
     },
     "contributors": [
           {
-              "name": "Your Name",
+              "name": "Stanley Ng",
               "email": "nobody@yahoo-inc.com"
           }
     ],
