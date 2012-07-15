@@ -104,6 +104,13 @@
                                     "type": "HiddenElementMojit"
                                 },
                                 "sidebar-element": {
+                                    "config": {
+                                        "children": {
+                                            "devices-element": {
+                                                "type": "DevicesElementMojit"
+                                            }
+                                        }
+                                    },
                                     "type": "SidebarElementMojit"
                                 }
                             }

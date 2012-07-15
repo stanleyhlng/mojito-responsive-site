@@ -38,9 +38,8 @@ YUI.add('SidebarElementMojit', function(Y, NAME) {
                 data.info = {};
                 data.info.name = ac.intl.lang( "TITLE" );
 
-                ac.done({
-                    status: 'Mojito is working.',
-                    data: data
+                ac.composite.done({
+                    template: { data: data }
                 });
             });
         }

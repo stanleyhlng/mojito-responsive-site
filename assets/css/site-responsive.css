@@ -8,7 +8,11 @@
         width: 63%;
     }
     #sidebar {
-        width:  30%;
+        width: 30%;
+    }
+    .devices li {
+        width: 30%;
+        font-size: 30%;
     }
 
 }
@@ -97,6 +101,13 @@
     }
     .container {
         padding: 5px;
+    }
+    .devices li {
+        width: 90px;
+        font-size: 1.0em;
+    }
+    .navigation li {
+        border-right: none;
     }
 }
 

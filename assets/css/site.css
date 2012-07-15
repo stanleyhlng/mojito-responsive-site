@@ -206,6 +206,39 @@ a:hover {
     font-weight: bold;
 }
 
+.devices {
+    background-color: #EEEEEE;
+    padding: 10px;
+}
+.devices ul {
+    padding: 0;
+    text-align: center;
+}
+.devices li {
+    background-color: rgba(250,250,2505,0.5);
+    border: 1px solid #AAAAAA;
+    color: #888888;
+    display: inline-block;
+    font-size: 0.8em;
+    margin: 0 auto;
+    text-transform: uppercase;
+    width: 77px;
+}
+.devices li:hover {
+    border: 1px solid #ED145B;
+    opacity: 0.8;
+}
+.devices li:hover a {
+    text-decoration: none;
+}
+
+.devices li img {
+    width: 100%;
+}
+.devices li div {
+    margin: 5px auto;
+}
+
 .tagline {
     float: left;
     font-size: 1.2em;

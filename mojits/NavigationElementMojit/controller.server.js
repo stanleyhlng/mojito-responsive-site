@@ -34,10 +34,6 @@ YUI.add('NavigationElementMojit', function(Y, NAME) {
                     ac.error(err);
                     return;
                 }
-
-                var path = ac.http.getRequest().url;
-                console.log( path );
-
                 ac.done({
                     status: 'Mojito is working.',
                     data: get_data(ac) 
@@ -49,15 +45,16 @@ YUI.add('NavigationElementMojit', function(Y, NAME) {
 
 
     function get_data(ac) {
-        var data = {};
+        var data = {},
+            link = "";
 
         var routes = {};
         routes['home'] = ac.url.make( 'home-page', 'index' );
         routes['about'] = ac.url.make( 'about-page', 'index' );
-        routes['external'] = ac.url.make( 'external-page', 'index' );
+        routes['external'] = ac.url.make( 'external-page', 'index', "url=http%3A%2F%2Fwww.responsivewebdesign.co.uk%2F" );
 
         var path = ac.http.getRequest().path;
-        if ( path === routes['external'] ) {
+        if ( path === ac.url.make( 'external-page', 'index') ) {
 
             // navigation: external
             data.current_path = path;
