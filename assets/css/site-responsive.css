@@ -73,13 +73,25 @@
         padding-left: 5px;
         padding-right: 5px;
     }
+    .article .divider {
+        border-bottom: 1px solid #ED145B;
+    }   
     .article .image-container {
         border-width: 0;
         padding: 0;
-        margin: 0 -10px;
+        margin: 10 -10px;
     }
     .article .image-container:active, 
     .article .image-container:hover {
+        border-width: 0;
+        opacity: 0.5;
+    }
+    .article .video-container {
+        border-width: 0;
+        margin: 10 -10px;
+    }
+    .article .video-container:active, 
+    .article .video-container:hover {
         border-width: 0;
         opacity: 0.5;
     }

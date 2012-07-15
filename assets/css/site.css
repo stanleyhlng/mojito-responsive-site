@@ -58,6 +58,9 @@ a:hover {
 .article {
     margin: 10px 0;
 }
+.article .divider {
+    border-bottom: 1px solid #ED145B;
+}
 .article .image-container {
     margin: 20px 0;
     padding: 10px;
@@ -70,6 +73,31 @@ a:hover {
     background-color: #EEEEEE;
     border: 1px solid #ED145B;
 }
+
+.article .video-container {
+    border: 1px solid #333333;
+    margin: 20px 0;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;   
+}
+.article .video-contianer:active,
+.article .video-container:hover {
+    background-color: #EEEEEE;
+    border: 1px solid #ED145B;
+}
+.article .video-container iframe,  
+.article .video-container object,  
+.article .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .article img {
     max-width: 100%;
 }
@@ -184,3 +212,4 @@ a:hover {
     line-height: 1.4em;;
     padding: 10px 0;
 }
+
