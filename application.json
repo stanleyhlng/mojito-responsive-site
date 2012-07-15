@@ -108,6 +108,9 @@
                                         "children": {
                                             "devices-element": {
                                                 "type": "DevicesElementMojit"
+                                            },
+                                            "languages-element": {
+                                                "type": "LanguagesElementMojit"
                                             }
                                         }
                                     },

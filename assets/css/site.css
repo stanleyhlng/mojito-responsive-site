@@ -210,6 +210,9 @@ a:hover {
     background-color: #EEEEEE;
     padding: 10px;
 }
+.devices h3 {
+    color: #CCCCCC;
+}
 .devices ul {
     padding: 0;
     text-align: center;
@@ -237,6 +240,20 @@ a:hover {
 }
 .devices li div {
     margin: 5px auto;
+}
+
+.languages {
+    background-color: #EEEEEE;
+    padding: 10px;  
+}
+.languages h3 {
+    color: #CCCCCC;
+}
+.languages ul {
+    
+}
+.languages li {
+    display: inline-block;  
 }
 
 .tagline {
