@@ -49,8 +49,10 @@ YUI.add('DevicesElementMojit', function(Y, NAME) {
             link = "http://quirktools.com/screenfly/",
             name = "";
 
+        data.name = ac.intl.lang( "TITLE" );
+    
         data.items = [];
-            
+
         name = ac.intl.lang( 'DESKTOP' );
         markup = '<li><a target="_blank" href="' + link + '"><img src="/static/responsive_site/assets/img/icon-desktop.png" /><div>' + name + '</div></a></li>';
         data.items.push({
