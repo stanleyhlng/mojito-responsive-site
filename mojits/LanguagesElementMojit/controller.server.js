@@ -52,7 +52,7 @@ YUI.add('LanguagesElementMojit', function(Y, NAME) {
     
         data.items = [];
 
-        link = ac.url.make( 'home-page', 'index', 'lang=en-US' );
+        link = ac.url.make( 'home-page', 'index', 'lang=zh-Hans-CN' );
         name = ac.intl.lang( 'CN' );
         markup = '<li><a title="' + name + '" href="' + link + '"><img src="/static/responsive_site/assets/img/icon-flag-cn-24.png" /></a></li>';
         data.items.push({
@@ -66,7 +66,7 @@ YUI.add('LanguagesElementMojit', function(Y, NAME) {
             'markup': markup 
         });
 
-        link = ac.url.make( 'home-page', 'index', 'lang=zh-Hans-CN' );
+        link = ac.url.make( 'home-page', 'index', 'lang=en-US' );
         name = ac.intl.lang( 'US' );
         markup = '<li><a title="' + name + '" href="' + link + '"><img src="/static/responsive_site/assets/img/icon-flag-us-24.png" /></a></li>';
         data.items.push({
