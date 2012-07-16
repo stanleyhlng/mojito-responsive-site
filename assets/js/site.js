@@ -9,6 +9,7 @@
         */
 
         setupLightBox();
+        setupTour();
     };
 
     var setupLightBox = function() {
@@ -23,6 +24,14 @@
         
         jQuery("#lightbox").click(function(){
             $('#lightbox').css('display', 'none');
+        });
+    }
+
+    var setupTour = function() {
+        jQuery("#banner .button").click(function(){
+            jQuery(this).joyride({
+                "tipContent": "#page-guide-steps"
+            });
         });
     }
 

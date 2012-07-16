@@ -81,7 +81,10 @@ YUI.add('PageGuideElementMojit', function(Y, NAME) {
                 'markup': '<li data-id="sidebar" data-options="tipLocation:top;tipAnimation:fade" data-text="Next" class="page-guide-popup"><div>This is <strong>SIDEBAR</strong> section. </div></li>'
             });
             data.items.push({
-                'markup': '<li data-id="footer" data-options="tipLocation:top;tipAnimation:fade" data-text="Close" class="page-guide-popup"><div>This is <strong>FOOTER</strong> section. </div></li>'
+                'markup': '<li data-id="footer" data-options="tipLocation:top;tipAnimation:fade" data-text="Next" class="page-guide-popup"><div>This is <strong>FOOTER</strong> section. </div></li>'
+            });
+            data.items.push({
+                'markup': '<li data-id="logo" data-options="tipLocation:top;tipAnimation:fade" data-text="Close" class="page-guide-popup"><div>Let\'s Drink <strong>COCKTAILS</strong> Together Now. </div></li>'
             });
 
         } else if ( path === routes['about'] ) {

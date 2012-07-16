@@ -1,6 +1,9 @@
 /* for 980px or less */
 @media screen and (max-width: 950px) {
 
+    #banner .caption {
+        font-size: 95%;
+    }
     #pagewrap {
         width: 94%; 
     }
@@ -14,12 +17,21 @@
         width: 30%;
         font-size: 30%;
     }
-
 }
 
 /* for 700px or less */
 @media screen and (max-width: 700px) {
-    
+
+    #banner .caption {
+        display: none;
+    }
+    #banner .caption-newline {
+        border-top: 1px solid #ED145B;
+        display: block;
+        font-size: 80%;
+        margin-top: 5px;;
+        padding-top: 10px;      
+    }   
     #content {
         width: auto;
         float: none;

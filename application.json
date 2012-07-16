@@ -57,6 +57,9 @@
                     "child": {
                         "config": {
                             "children": {
+                                "banner-element": {
+                                    "type": "BannerElementMojit"
+                                },
                                 "content-element": {
                                     "config": {
                                         "children": {

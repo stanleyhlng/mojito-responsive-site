@@ -16,6 +16,43 @@ a:hover {
     text-decoration: underline;
 }
 
+#banner {
+    background-color: rgba(128,128,128,0.1);
+    font-size: 1.0em;
+    line-height: ;
+    margin: 10px;
+    padding: 10px;
+}
+#banner .button {
+    background-color: #DDDDDD;
+    color: #333333;
+    padding: 10px 20px;
+    font-weight: normal;
+    float: right;
+    text-transform: uppercase;
+}
+#banner .button:hover {
+    background-color: #ED145B;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#banner .title {
+    float: left;
+    height: 36px;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+#banner .title img {
+    height: 100%;
+}
+#banner .caption {
+    margin-top: 10px;
+    vertical-align: baseline;
+}
+#banner .caption-newline {
+    display: none;
+    text-align: center;
+}
 #pagewrap {
     //background-color: rgba(0,0,0,0.5);
     margin: 0 auto 20px auto;
