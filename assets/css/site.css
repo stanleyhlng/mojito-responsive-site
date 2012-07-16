@@ -192,15 +192,15 @@ a:hover {
 }
 
 .guide-page {
-    //border: 1px solid blue;   
+    border: 1px solid rgba(0,0,255,0);  
     margin: -1;
 }
 .guide-section {
-    //border: 1px solid red;    
+    border: 1px solid rgba(255,0,0,0);  
     margin: -1;
 }
 .guide-element {
-    //border: 1px solid green;  
+    border: 1px solid rgba(255,0,255,0);    
     margin: -1;
 }
 
