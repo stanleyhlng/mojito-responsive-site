@@ -242,10 +242,10 @@
         }
     },
     {
-        "settings": [ "environment:development" ],
+        "settings": [ "environment:production" ],
         "staticHandling": {
-            "cache": false,
-            "forceUpdate": true, 
+            "cache": true,
+            "forceUpdate": false, 
             "maxAge": 1
         }
     }
