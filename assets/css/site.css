@@ -126,7 +126,12 @@ a:hover {
     background-color: #EEEEEE;
     border: 1px solid #ED145B;
 }
-
+.article .story-container {
+    margin: 20px 0;
+}
+.article .story-container p {
+    padding: 10px;  
+}
 .article .video-container {
     border: 1px solid #333333;
     margin: 20px 0;
