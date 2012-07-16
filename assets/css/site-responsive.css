@@ -102,12 +102,25 @@
     .container {
         padding: 5px;
     }
+    .copyright {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
     .devices li {
         width: 90px;
         font-size: 1.0em;
     }
     .navigation li {
         border-right: none;
+    }
+    .services {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .tagline {
+        text-align: center;
     }
 }
 

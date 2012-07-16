@@ -72,6 +72,9 @@
                                         "children": {
                                             "copyright-element": {
                                                 "type": "CopyrightElementMojit"
+                                            },
+                                            "services-element": {
+                                                "type": "ServicesElementMojit"
                                             }
                                         }
                                     },
@@ -144,6 +147,9 @@
                                         "children": {
                                             "copyright-element": {
                                                 "type": "CopyrightElementMojit"
+                                            },
+                                            "services-element": {
+                                                "type": "ServicesElementMojit"
                                             }
                                         }
                                     },

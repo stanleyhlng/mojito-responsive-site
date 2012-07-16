@@ -42,6 +42,7 @@ a:hover {
 }
 #footer {
     background-color: rgba(255,255,255,0.5);
+    border-top: 5px solid #ED145B;
     clear: both;
     margin: 10px;
 }
@@ -66,7 +67,7 @@ a:hover {
     padding: 10px;
     border: 1px solid rgba(0,0,0,0.1);
     //box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
-    background-color: rgba(250,250,250,1.0);    
+    background-color: rgba(250,250,250,1.0);
 }
 .article .image-container:active,
 .article .image-container:hover {
@@ -132,6 +133,9 @@ a:hover {
 }
 
 .copyright {
+    color: #888888;
+    float: left;
+    font-size: 0.9em;
     padding: 10px 0;
 }
 
@@ -254,6 +258,26 @@ a:hover {
 }
 .languages li {
     display: inline-block;  
+}
+
+.services {
+    color: #333333;
+    font-size: 0.75em;
+    float: right;
+    opacity: 0.8;
+    text-transform: uppercase;
+}
+.services ul {
+}
+.services li {
+    display: inline-block;
+    text-align: center;
+}
+.services li div {
+    padding-left: 6px;
+}
+.services li img {
+    position: relative;
 }
 
 .tagline {
