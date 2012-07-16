@@ -226,13 +226,17 @@
             }
         },
         "staticHandling": {
+            "cache": false,
+            "forceUpdate": true
             "appName": "responsive_site"
         }
     },
     {
-        "settings": [ "environment:development" ],
+        "settings": [ "environment:production" ],
         "staticHandling": {
-            "forceUpdate": true
+            "cache": true,
+            "forceUpdate": false, 
+            "maxAge": 1
         }
     }
 ]
