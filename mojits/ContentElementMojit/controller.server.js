@@ -35,6 +35,15 @@ YUI.add('ContentElementMojit', function(Y, NAME) {
                     return;
                 }
 
+                var routes = {};
+                routes['home'] = ac.url.make( 'home-page', 'index' );
+                routes['about'] = ac.url.make( 'about-page', 'index' );
+                routes['external'] = ac.url.make( 'external-page', 'index', "url=http%3A%2F%2Fwww.responsivewebdesign.co.uk%2F" );
+
+                var path = ac.http.getRequest().path;
+                data.is_home = (path === routes['home']);
+                data.is_about = (path === routes['about']);
+
                 data.info = {};
                 data.info.name = ac.intl.lang( "TITLE" );
                 data.info.content = ac.intl.lang( "CONTENT" );

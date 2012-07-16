@@ -8,6 +8,9 @@
 
         <div class="article clearfix">
 
+            {{#data}}
+
+            {{#is_home}}
             <div class="image-container">
                 <img src="/static/responsive_site/assets/img/cocktails-image-800.png" />
             </div>
@@ -22,12 +25,66 @@
 
             <div class="story-container">
                 <p>
-                    {{#data}}{{#info}}{{content}}{{/info}}{{/data}}
+                    {{#info}}{{content}}{{/info}}
                 </p>
                 <p>
-                    {{#data}}{{#info}}{{content}}{{/info}}{{/data}}
+                    {{#info}}{{content}}{{/info}}
                 </p>
             </div>
+            {{/is_home}}
+
+            {{#is_about}}
+            <div class="image-container">
+                <img src="/static/responsive_site/assets/img/sketch-1.png" />
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="image-container">
+                <img src="/static/responsive_site/assets/img/sketch-2.png" />
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="image-container">
+                <img src="/static/responsive_site/assets/img/sketch-3.png" />
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="image-container">
+                <img src="/static/responsive_site/assets/img/sketch-4.png" />
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="image-container">
+                <img src="/static/responsive_site/assets/img/sketch-5.png" />
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="image-container">
+                <img src="/static/responsive_site/assets/img/sketch-6.png" />
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="image-container">
+                <img src="/static/responsive_site/assets/img/sketch-7.png" />
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="image-container">
+                <img src="/static/responsive_site/assets/img/sketch-8.png" />
+            </div>
+
+            <div class="divider"></div>
+            {{/is_about}}
+
+            {{/data}}
+            
         </div>
     </div>
 </div>
