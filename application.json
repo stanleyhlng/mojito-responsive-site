@@ -227,7 +227,7 @@
         },
         "staticHandling": {
             "cache": false,
-            "forceUpdate": true
+            "forceUpdate": true,
             "appName": "responsive_site"
         }
     },
