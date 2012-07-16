@@ -187,6 +187,16 @@
                                     "type": "HiddenElementMojit"
                                 },
                                 "sidebar-element": {
+                                    "config": {
+                                        "children": {
+                                            "devices-element": {
+                                                "type": "DevicesElementMojit"
+                                            },
+                                            "languages-element": {
+                                                "type": "LanguagesElementMojit"
+                                            }
+                                        }
+                                    },
                                     "type": "SidebarElementMojit"
                                 }
                             }

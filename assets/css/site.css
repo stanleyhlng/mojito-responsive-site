@@ -126,6 +126,9 @@ a:hover {
     background-color: #EEEEEE;
     border: 1px solid #ED145B;
 }
+.article .image-container img {
+    width: 100%;
+}
 .article .story-container {
     margin: 20px 0;
 }

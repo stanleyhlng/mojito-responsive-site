@@ -46,6 +46,7 @@ YUI.add('AboutPageMojit', function(Y, NAME) {
                     data: data
                 });
                 */
+                ac.assets.addCss('/static/responsive_site/assets/css/site-about-page.css');
                 ac.composite.done();
             });
         }
