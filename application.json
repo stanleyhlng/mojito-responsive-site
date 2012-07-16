@@ -1,7 +1,7 @@
 [
     {
         "settings": [ "master" ],
-        "appPort": 80,
+        "appPort": 8666,
         "cacheViewTemplates": false,
         "specs": {
             "site-layout": {
