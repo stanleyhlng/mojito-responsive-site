@@ -2,7 +2,7 @@
  * Copyright (c) 2012 Yahoo! Inc. All rights reserved.
  */
 /*jslint anon:true, sloppy:true, nomen:true*/
-YUI.add('ContentElementMojit', function(Y, NAME) {
+YUI.add('ContentElementMojit', function (Y, NAME) {
 
 /**
  * The ContentElementMojit module.
@@ -18,7 +18,7 @@ YUI.add('ContentElementMojit', function(Y, NAME) {
      */
     Y.mojito.controllers[NAME] = {
 
-        init: function(config) {
+        init: function (config) {
             this.config = config;
         },
 
@@ -28,16 +28,16 @@ YUI.add('ContentElementMojit', function(Y, NAME) {
          * @param ac {Object} The ActionContext that provides access
          *        to the Mojito API.
          */
-        index: function(ac) {
-            ac.models.ContentElementMojitModelFoo.getData(function(err, data) {
+        index: function (ac) {
+            ac.models.ContentElementMojitModelFoo.getData(function (err, data) {
                 if (err) {
                     ac.error(err);
                     return;
                 }
 
                 data.info = {};
-                data.info.name = ac.intl.lang( "TITLE" );
-                data.info.content = ac.intl.lang( "CONTENT" );
+                data.info.name = ac.intl.lang("TITLE");
+                data.info.content = ac.intl.lang("CONTENT");
 
                 ac.composite.done({
                     template: { data: data }

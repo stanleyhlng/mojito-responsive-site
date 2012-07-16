@@ -18,8 +18,8 @@
                         },
                         "bottom": {
                             "js": [
-                                "/static/responsive_site/assets/js/jquery.js",
-                                "/static/responsive_site/assets/js/joyride.js",
+                                "https://s3-ap-southeast-1.amazonaws.com/atd-common/js/jquery.js",
+                                "https://s3-ap-southeast-1.amazonaws.com/atd-common/js/joyride.js",
                                 "/static/responsive_site/assets/js/site.js"
                             ]
                         }
@@ -41,7 +41,8 @@
                         },
                         "bottom": {
                             "js": [
-                                "/static/responsive_site/assets/js/jquery.js",
+                                "https://s3-ap-southeast-1.amazonaws.com/atd-common/js/jquery.js",
+                                "https://s3-ap-southeast-1.amazonaws.com/atd-common/js/joyride.js",
                                 "/static/responsive_site/assets/js/toolbar.js"
                             ]
                         }

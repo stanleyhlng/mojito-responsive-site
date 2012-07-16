@@ -1,0 +1,8 @@
+   1 39,48: Unexpected space between '(' and 'TITLE'.
+     data.info.name = ac.intl.lang( "TITLE" );
+   2 39,56: Unexpected space between 'TITLE' and ')'.
+     data.info.name = ac.intl.lang( "TITLE" );
+   3 40,51: Unexpected space between '(' and 'CONTENT'.
+     data.info.content = ac.intl.lang( "CONTENT" );
+   4 40,61: Unexpected space between 'CONTENT' and ')'.
+     data.info.content = ac.intl.lang( "CONTENT" );

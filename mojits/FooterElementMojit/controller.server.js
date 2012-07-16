@@ -2,7 +2,7 @@
  * Copyright (c) 2012 Yahoo! Inc. All rights reserved.
  */
 /*jslint anon:true, sloppy:true, nomen:true*/
-YUI.add('FooterElementMojit', function(Y, NAME) {
+YUI.add('FooterElementMojit', function (Y, NAME) {
 
 /**
  * The FooterElementMojit module.
@@ -18,7 +18,7 @@ YUI.add('FooterElementMojit', function(Y, NAME) {
      */
     Y.mojito.controllers[NAME] = {
 
-        init: function(config) {
+        init: function (config) {
             this.config = config;
         },
 
@@ -28,8 +28,8 @@ YUI.add('FooterElementMojit', function(Y, NAME) {
          * @param ac {Object} The ActionContext that provides access
          *        to the Mojito API.
          */
-        index: function(ac) {
-            ac.models.FooterElementMojitModelFoo.getData(function(err, data) {
+        index: function (ac) {
+            ac.models.FooterElementMojitModelFoo.getData(function (err, data) {
                 if (err) {
                     ac.error(err);
                     return;
@@ -43,7 +43,7 @@ YUI.add('FooterElementMojit', function(Y, NAME) {
                 */
 
                 data.info = {};
-                data.info.name = ac.intl.lang( "TITLE" );
+                data.info.name = ac.intl.lang("TITLE");
 
                 ac.composite.done({
                     template: { data: data }

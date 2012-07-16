@@ -1,0 +1,24 @@
+   1 1,51: Expected exactly one space between 'function' and '('.
+     YUI.add("lang/TaglineElementMojit_en-US", function(Y,NAME) {
+   2 1,54: Missing space between ',' and 'NAME'.
+     YUI.add("lang/TaglineElementMojit_en-US", function(Y,NAME) {
+   3 2,3: Missing 'use strict' statement.
+     Y.Intl.add(
+   4 2,3: Expected 'Y' at column 5, not column 3.
+     Y.Intl.add(
+   5 3,5: Expected 'TaglineElementMojit' at column 9, not column 5.
+     "TaglineElementMojit",  // associated mojit
+   6 4,5: Expected 'en-US' at column 9, not column 5.
+     "en-US",    // BCP 47 language tag
+   7 6,5: Expected '{' at column 9, not column 5.
+     {
+   8 7,9: Expected 'TITLE' at column 13, not column 9.
+     TITLE: "Tagline",
+   9 8,9: Expected 'CONTENT' at column 13, not column 9.
+     CONTENT: "Evolve your website - make it responsive.",
+  10 8,61: Unexpected ','.
+     CONTENT: "Evolve your website - make it responsive.",
+  11 9,5: Expected '}' at column 9, not column 5.
+     }
+  12 10,3: Expected ')' at column 5, not column 3.
+     );

@@ -1,0 +1,22 @@
+   1 1,56: Expected exactly one space between 'function' and '('.
+     YUI.add("lang/TaglineElementMojit_zh-Hans-CN", function(Y,NAME) {
+   2 1,59: Missing space between ',' and 'NAME'.
+     YUI.add("lang/TaglineElementMojit_zh-Hans-CN", function(Y,NAME) {
+   3 2,3: Missing 'use strict' statement.
+     Y.Intl.add(
+   4 2,3: Expected 'Y' at column 5, not column 3.
+     Y.Intl.add(
+   5 3,5: Expected 'TaglineElementMojit' at column 9, not column 5.
+     "TaglineElementMojit",  // associated mojit
+   6 4,5: Expected 'zh-Hans-CN' at column 9, not column 5.
+     "zh-Hans-CN",    // BCP 47 language tag
+   7 6,5: Expected '{' at column 9, not column 5.
+     {
+   8 7,9: Expected 'TITLE' at column 13, not column 9.
+     TITLE: "标语",
+   9 8,9: Expected 'CONTENT' at column 13, not column 9.
+     CONTENT: "发展你的网站 - 请使用响应式设计。"
+  10 9,5: Expected '}' at column 9, not column 5.
+     }
+  11 10,3: Expected ')' at column 5, not column 3.
+     );

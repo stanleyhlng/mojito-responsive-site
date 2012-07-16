@@ -1,14 +1,17 @@
-(function(jQuery){
+/*globals jQuery */
+(function (jQuery) {
 
-    var main = function() {
+    "use strict";
 
-        $(this).joyride({
+    var main = function () {
+
+        jQuery(this).joyride({
             /* Options will go here */
             "tipContent": "#page-guide-steps"
         });
 
     };
-    
-    jQuery( document ).ready( main );
-    
-}(jQuery));
+
+    jQuery(document).ready(main);
+
+}(jQuery)); /* Predefined ( jQuery, $ ) */

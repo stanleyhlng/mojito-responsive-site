@@ -2,7 +2,7 @@
  * Copyright (c) 2012 Yahoo! Inc. All rights reserved.
  */
 /*jslint anon:true, sloppy:true, nomen:true*/
-YUI.add('PageGuideElementMojit', function(Y, NAME) {
+YUI.add('PageGuideElementMojit', function (Y, NAME) {
 
 /**
  * The PageGuideElementMojit module.
@@ -10,51 +10,16 @@ YUI.add('PageGuideElementMojit', function(Y, NAME) {
  * @module PageGuideElementMojit
  */
 
-    /**
-     * Constructor for the Controller class.
-     *
-     * @class Controller
-     * @constructor
-     */
-    Y.mojito.controllers[NAME] = {
-
-        init: function(config) {
-            this.config = config;
-        },
-
-        /**
-         * Method corresponding to the 'index' action.
-         *
-         * @param ac {Object} The ActionContext that provides access
-         *        to the Mojito API.
-         */
-        index: function(ac) {
-            ac.models.PageGuideElementMojitModelFoo.getData(function(err, data) {
-                if (err) {
-                    ac.error(err);
-                    return;
-                }
-                ac.assets.addCss('./index.css');
-                ac.done({
-                    status: 'Mojito is working.',
-                    data: get_data(ac)
-                });
-            });
-        }
-
-    };
-
-
     function get_data(ac) {
-        var data = {};
-        
-        var routes = {};
-        routes['home'] = ac.url.make( 'home-page', 'index' );
-        routes['about'] = ac.url.make( 'about-page', 'index' );
-        routes['external'] = ac.url.make( 'external-page', 'index' );
+        var data = {},
+            routes = {},
+            path = ac.http.getRequest().path;
 
-        var path = ac.http.getRequest().path;
-        if ( path === routes['home'] ) {
+        routes.home = ac.url.make('home-page', 'index');
+        routes.about = ac.url.make('about-page', 'index');
+        routes.external = ac.url.make('external-page', 'index');
+
+        if (path === routes.home) {
 
             data.items  = [];
 
@@ -80,7 +45,7 @@ YUI.add('PageGuideElementMojit', function(Y, NAME) {
                 'markup': '<li data-id="footer" data-options="tipLocation:top;tipAnimation:fade" data-text="Close" class="page-guide-popup"><div>This is <strong>FOOTER</strong> section. </div></li>'
             });
 
-        } else if ( path === routes['about'] ) {
+        } else if (path === routes.about) {
 
             data.items  = [];
 
@@ -88,5 +53,38 @@ YUI.add('PageGuideElementMojit', function(Y, NAME) {
 
         return data;
     }
+
+    /**
+     * Constructor for the Controller class.
+     *
+     * @class Controller
+     * @constructor
+     */
+    Y.mojito.controllers[NAME] = {
+
+        init: function (config) {
+            this.config = config;
+        },
+
+        /**
+         * Method corresponding to the 'index' action.
+         *
+         * @param ac {Object} The ActionContext that provides access
+         *        to the Mojito API.
+         */
+        index: function (ac) {
+            ac.models.PageGuideElementMojitModelFoo.getData(function (err, data) {
+                if (err) {
+                    ac.error(err);
+                    return;
+                }
+                ac.done({
+                    status: 'Mojito is working.',
+                    data: get_data(ac)
+                });
+            });
+        }
+
+    };
 
 }, '0.0.1', {requires: ['mojito', 'PageGuideElementMojitModelFoo']});
