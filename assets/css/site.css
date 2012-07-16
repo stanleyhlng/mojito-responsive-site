@@ -216,6 +216,7 @@ a:hover {
     padding: 10px;
 }
 .logo img {
+    cursor: pointer;
     max-height: 120px;
 }
 
