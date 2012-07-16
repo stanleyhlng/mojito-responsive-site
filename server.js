@@ -11,4 +11,6 @@
 /**
  * Returns a new Mojito server instance.
  */
-module.exports = require('mojito').createServer();
+//module.exports = require('mojito').createServer();
+var mojito = require('mojito');
+new mojito.constructor().createServer().listen(process.env.PORT || 5000);
