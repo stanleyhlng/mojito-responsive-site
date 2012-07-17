@@ -1,15 +1,15 @@
 {
     "name": "responsive_site",
-    "description": "My Mojito application",
+    "description": "a simple mojito application to demonstrate responsive site",
     "version": "0.0.1",
     "author": {
         "name": "Stanley Ng",
-        "email": "nobody@yahoo-inc.com"
+        "email": "stanleyhlng@googlegroups.com"
     },
     "contributors": [
           {
               "name": "Stanley Ng",
-              "email": "nobody@yahoo-inc.com"
+              "email": "stanleyhlng@googlegroups.com"
           }
     ],
     "dependencies": {
@@ -17,6 +17,13 @@
     },
     "engines": {
         "node": "0.6.x"
+    },
+    "keywords": {
+        "mojito",
+        "responsive",
+        "html5",
+        "css3",
+        "i18n"
     },
     "scripts": {
         "start": "server.js"
