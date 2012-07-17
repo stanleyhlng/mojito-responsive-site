@@ -187,6 +187,16 @@
                                     "type": "HiddenElementMojit"
                                 },
                                 "sidebar-element": {
+                                    "config": {
+                                        "children": {
+                                            "devices-element": {
+                                                "type": "DevicesElementMojit"
+                                            },
+                                            "languages-element": {
+                                                "type": "LanguagesElementMojit"
+                                            }
+                                        }
+                                    },
                                     "type": "SidebarElementMojit"
                                 }
                             }
@@ -232,10 +242,10 @@
         }
     },
     {
-        "settings": [ "environment:production" ],
+        "settings": [ "environment:development" ],
         "staticHandling": {
-            "cache": true,
-            "forceUpdate": false, 
+            "cache": false,
+            "forceUpdate": true, 
             "maxAge": 1
         }
     }
