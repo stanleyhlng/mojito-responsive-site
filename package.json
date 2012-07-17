@@ -12,11 +12,11 @@
               "email": "stanleyhlng@googlegroups.com"
           }
     ],
-    "dependencies": {
-        "mojito": "0.3.26"
-    },
     "engines": {
         "node": "0.6.x"
+    },
+    "dependencies": {
+        "mojito": "0.3.26"
     },
     "scripts": {
         "start": "server.js"
