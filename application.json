@@ -17,6 +17,7 @@
                         },
                         "bottom": {
                             "js": [
+                                "/static/responsive_site/assets/js/google-analytics.js",
                                 "/static/responsive_site/assets/js/jquery.js",
                                 "/static/responsive_site/assets/js/joyride.js",
                                 "/static/responsive_site/assets/js/site.js"
@@ -40,6 +41,7 @@
                         },
                         "bottom": {
                             "js": [
+                                "/static/responsive_site/assets/js/google-analytics.js",
                                 "/static/responsive_site/assets/js/jquery.js",
                                 "/static/responsive_site/assets/js/toolbar.js"
                             ]
