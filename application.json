@@ -274,6 +274,29 @@
         }
     },
     {
+        "settings": [ "environment:staging" ],
+        "specs": {
+            "site-layout": {
+                "config": {
+                    "assets": {
+                        "bottom": {
+                            "js": [
+                                "/static/responsive_site/assets/js/jquery.js",
+                                "/static/responsive_site/assets/js/joyride.js",
+                                "/static/responsive_site/assets/js/site.js"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "staticHandling": {
+            "cache": false,
+            "forceUpdate": true, 
+            "maxAge": 1
+        }
+    },
+    {
         "settings": [ "lang:zh-Hans-CN" ],
         "custom": {
             "hello": "你好！"
