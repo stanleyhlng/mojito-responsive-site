@@ -51,6 +51,7 @@ YUI.add('DebugElementMojit', function(Y, NAME) {
                     content += "<br />";
                 });
                 data.content = content;
+Y.log(ac.context, "DEBUG");
 
                 //Y.log(ac.app.config.custom, "DEBUG");
                 //Y.log(ac.config._config, "DEBUG");

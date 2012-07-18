@@ -13,4 +13,9 @@
  */
 //module.exports = require('mojito').createServer();
 var mojito = require('mojito');
-new mojito.constructor().createServer().listen(process.env.PORT || 5000);
+var options = {
+    'context': {
+        'environment': process.env.NODE_ENV || "dev"
+    }
+};
+new mojito.constructor().createServer(options).listen(process.env.PORT || 5000);
