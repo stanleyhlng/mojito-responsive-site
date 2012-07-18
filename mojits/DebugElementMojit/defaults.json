@@ -1,0 +1,38 @@
+[
+    {
+        "settings": [ "master" ],
+        "config": {
+            "hello": "Hello!"
+        }
+    },
+    {
+        "settings": [ "lang:zh-Hans-CN" ],
+        "config": {
+            "hello": "你好！"
+        }
+    },
+    {
+        "settings": [ "lang:zh-Hant-HK" ],
+        "config": {
+            "hello": "你好！"
+        }
+    },
+    {
+        "settings": [ "lang:fr-FR" ],
+        "config": {
+            "hello": "Bonjour!"
+        }
+    },
+    {
+        "settings": [ "lang:ja-JP" ],
+        "config": {
+            "hello": "こんにちは!"
+        }
+    },
+    {
+        "settings": [ "lang:ko-KR" ],
+        "config": {
+            "hello": "여보세요!"
+        }
+    }
+]

@@ -271,6 +271,18 @@ a:hover {
     font-weight: bold;
 }
 
+.debug {
+    background-color: #EEEEEE;
+    padding: 10px;
+}
+.debug h3 {
+    color: #CCCCCC;
+}
+.debug h4 {
+    color: #AAAAAA;
+    margin-top: 5px;
+}
+
 .devices {
     background-color: #EEEEEE;
     padding: 10px;
@@ -299,7 +311,6 @@ a:hover {
 .devices li:hover a {
     text-decoration: none;
 }
-
 .devices li img {
     width: 100%;
 }
