@@ -52,8 +52,8 @@ YUI.add('DebugElementMojit', function(Y, NAME) {
                 });
                 data.content = content;
 
-                Y.log(ac.app.config.custom, "DEBUG");
-                Y.log(ac.config._config, "DEBUG");
+                //Y.log(ac.app.config.custom, "DEBUG");
+                //Y.log(ac.config._config, "DEBUG");
 
                 ac.done({
                     status: 'Mojito is working.',
